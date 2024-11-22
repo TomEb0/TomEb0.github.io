@@ -1,5 +1,5 @@
 /* Reset some basic elements */
-body, h1, h2, h3, p, a {
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
     color: #333;
@@ -56,21 +56,30 @@ section {
     text-decoration: underline;
 }
 
+/* Certifications and Social Links styling */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Contact section */
 section:last-of-type {
     text-align: center;
 }
 
-section:last-of-type a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-section:last-of-type a:hover {
-    text-decoration: underline;
-}
-/* Existing styles */
-
+/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -89,9 +98,4 @@ section:last-of-type a:hover {
 .fade-in-delayed {
     animation: fadeIn 1s ease-out;
     animation-delay: 0.5s;
-}
-
-/* Additional styles for smooth scrolling */
-html {
-    scroll-behavior: smooth;
 }
