@@ -104,5 +104,5 @@ section:last-of-type {
     animation-delay: 0.5s;
 }
 img src { 
-    transform: scale();
+    transform: scale(10);
 }
