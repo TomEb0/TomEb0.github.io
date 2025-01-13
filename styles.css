@@ -103,3 +103,6 @@ section:last-of-type {
     animation: fadeIn 1s ease-out;
     animation-delay: 0.5s;
 }
+img src { 
+    transform: scale();
+}
