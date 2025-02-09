@@ -51,7 +51,6 @@ section {
     text-align: left;
 }
 
-/* Profile Picture */
 .profile-pic {
     position: fixed;
     top: 10px;
@@ -68,7 +67,6 @@ section {
     transform: scale(1.1);
 }
 
-/* Modal */
 .modal {
     display: none;
     position: fixed;
@@ -91,7 +89,6 @@ section {
     display: flex;
 }
 
-/* Projects */
 .project {
     padding: 1rem;
     margin-bottom: 1rem;
@@ -114,7 +111,6 @@ section {
     text-decoration: underline;
 }
 
-/* Certifications */
 ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -125,7 +121,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* Social Links */
 .social-links img {
     width: 30px;
     margin: 0 10px;
@@ -136,7 +131,6 @@ ul li {
     transform: scale(1.2);
 }
 
-/* Contact Section */
 a {
     color: #0066cc;
     text-decoration: none;
